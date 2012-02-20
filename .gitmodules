@@ -1,0 +1,3 @@
+[submodule "libetpan"]
+	path = libetpan
+	url = git://github.com/bookworm/libetpan.git
