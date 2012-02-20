@@ -13,9 +13,11 @@
 		8A3FFB4C14F2DDE70055863A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3FFB4B14F2DDE70055863A /* SenTestingKit.framework */; };
 		8A3FFB4D14F2DDE70055863A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3FFB3514F2DDE60055863A /* Cocoa.framework */; };
 		8A3FFB5014F2DDE70055863A /* MailKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3FFB3214F2DDE60055863A /* MailKit.framework */; };
-		8A3FFB6214F2E55F0055863A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FFB6014F2E55F0055863A /* Info.plist */; };
-		8A3FFB6314F2E55F0055863A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FFB6014F2E55F0055863A /* Info.plist */; };
-		8A3FFB6414F2E55F0055863A /* MailKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8A3FFB6114F2E55F0055863A /* MailKit_Prefix.pch */; };
+		8A3FFB6214F2E55F0055863A /* MailKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FFB6014F2E55F0055863A /* MailKit-Info.plist */; };
+		8A3FFB6314F2E55F0055863A /* MailKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FFB6014F2E55F0055863A /* MailKit-Info.plist */; };
+		8A3FFD7314F2E87B0055863A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FFD7214F2E87B0055863A /* main.m */; };
+		8A3FFD7414F2E87B0055863A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FFD7214F2E87B0055863A /* main.m */; };
+		8AF07FC314F2EA35001C844F /* MailKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8AF07FC214F2EA35001C844F /* MailKit_Prefix.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8A3FFB3114F2DDE60055863A;
 			remoteInfo = MailKit;
+		};
+		8A3FFD6E14F2E7600055863A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A3FFD6614F2E75F0055863A /* libetpan.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = libetpan;
+		};
+		8A3FFD7014F2E7600055863A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A3FFD6614F2E75F0055863A /* libetpan.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C69AB10A10546FE500F32FBD;
+			remoteInfo = "static libetpan";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -85,8 +101,10 @@
 		8A3FFB4314F2DDE60055863A /* MailKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailKit.m; sourceTree = "<group>"; };
 		8A3FFB4A14F2DDE70055863A /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3FFB4B14F2DDE70055863A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8A3FFB6014F2E55F0055863A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A3FFB6114F2E55F0055863A /* MailKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailKit_Prefix.pch; sourceTree = "<group>"; };
+		8A3FFB6014F2E55F0055863A /* MailKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MailKit-Info.plist"; sourceTree = "<group>"; };
+		8A3FFD6614F2E75F0055863A /* libetpan.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libetpan.xcodeproj; path = "libetpan/build-mac/libetpan.xcodeproj"; sourceTree = "<group>"; };
+		8A3FFD7214F2E87B0055863A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AF07FC214F2EA35001C844F /* MailKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailKit_Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +132,10 @@
 		8A3FFAB814F2DCE70055863A = {
 			isa = PBXGroup;
 			children = (
-				8A3FFB6014F2E55F0055863A /* Info.plist */,
-				8A3FFB6114F2E55F0055863A /* MailKit_Prefix.pch */,
+				8A3FFD7214F2E87B0055863A /* main.m */,
+				8A3FFD6614F2E75F0055863A /* libetpan.xcodeproj */,
+				8A3FFB6014F2E55F0055863A /* MailKit-Info.plist */,
+				8AF07FC214F2EA35001C844F /* MailKit_Prefix.pch */,
 				8A3FFB2314F2DD5D0055863A /* Classes */,
 				8A3FFB3B14F2DDE60055863A /* MailKit */,
 				8A3FFB3414F2DDE60055863A /* Frameworks */,
@@ -250,6 +270,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8A3FFD6714F2E75F0055863A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A3FFD6F14F2E7600055863A /* libetpan.framework */,
+				8A3FFD7114F2E7600055863A /* libetpan.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -257,7 +286,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3FFB6414F2E55F0055863A /* MailKit_Prefix.pch in Headers */,
+				8AF07FC314F2EA35001C844F /* MailKit_Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +348,12 @@
 			mainGroup = 8A3FFAB814F2DCE70055863A;
 			productRefGroup = 8A3FFB3314F2DDE60055863A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8A3FFD6714F2E75F0055863A /* Products */;
+					ProjectRef = 8A3FFD6614F2E75F0055863A /* libetpan.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8A3FFB3114F2DDE60055863A /* MailKit */,
@@ -327,13 +362,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8A3FFD6F14F2E7600055863A /* libetpan.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = libetpan.framework;
+			remoteRef = 8A3FFD6E14F2E7600055863A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8A3FFD7114F2E7600055863A /* libetpan.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libetpan.a;
+			remoteRef = 8A3FFD7014F2E7600055863A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8A3FFB3014F2DDE60055863A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A3FFB4014F2DDE60055863A /* InfoPlist.strings in Resources */,
-				8A3FFB6214F2E55F0055863A /* Info.plist in Resources */,
+				8A3FFB6214F2E55F0055863A /* MailKit-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3FFB6314F2E55F0055863A /* Info.plist in Resources */,
+				8A3FFB6314F2E55F0055863A /* MailKit-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A3FFB4414F2DDE60055863A /* MailKit.m in Sources */,
+				8A3FFD7314F2E87B0055863A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3FFD7414F2E87B0055863A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +482,7 @@
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MailKit-Prefix.pch";
+				GCC_PREFIX_HEADER = MailKit_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -440,7 +494,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "libetpan/build-mac/include/**";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "MailKit-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -468,14 +522,14 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MailKit-Prefix.pch";
+				GCC_PREFIX_HEADER = MailKit_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "libetpan/build-mac/include/**";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "MailKit-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = (
 					0xb0000000,
@@ -563,6 +617,7 @@
 				8A3FFB5C14F2DDE70055863A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A3FFB5D14F2DDE70055863A /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +626,7 @@
 				8A3FFB5F14F2DDE70055863A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

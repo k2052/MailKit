@@ -32,7 +32,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8A3FFB4914F2DDE70055863A"
-               BuildableName = "MailKitTests.octest"
+               BuildableName = "Tests.octest"
                BlueprintName = "Tests"
                ReferencedContainer = "container:MailKit.xcodeproj">
             </BuildableReference>
