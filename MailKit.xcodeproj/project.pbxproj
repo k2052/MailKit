@@ -8,15 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		8A3FFB3614F2DDE60055863A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3FFB3514F2DDE60055863A /* Cocoa.framework */; };
-		8A3FFB4014F2DDE60055863A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FFB3E14F2DDE60055863A /* InfoPlist.strings */; };
-		8A3FFB4414F2DDE60055863A /* MailKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FFB4314F2DDE60055863A /* MailKit.m */; };
 		8A3FFB4C14F2DDE70055863A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3FFB4B14F2DDE70055863A /* SenTestingKit.framework */; };
 		8A3FFB4D14F2DDE70055863A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3FFB3514F2DDE60055863A /* Cocoa.framework */; };
 		8A3FFB5014F2DDE70055863A /* MailKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3FFB3214F2DDE60055863A /* MailKit.framework */; };
 		8A3FFB6214F2E55F0055863A /* MailKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FFB6014F2E55F0055863A /* MailKit-Info.plist */; };
 		8A3FFB6314F2E55F0055863A /* MailKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FFB6014F2E55F0055863A /* MailKit-Info.plist */; };
-		8A3FFD7314F2E87B0055863A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FFD7214F2E87B0055863A /* main.m */; };
-		8A3FFD7414F2E87B0055863A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FFD7214F2E87B0055863A /* main.m */; };
+		8A90E05814F2EFAD0081D479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A90E05714F2EFAD0081D479 /* main.m */; };
+		8A90E05914F2EFAD0081D479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A90E05714F2EFAD0081D479 /* main.m */; };
+		8ADA745614F2FCDE00407D1A /* JRLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA742814F2FCDD00407D1A /* JRLog.h */; };
+		8ADA745714F2FCDE00407D1A /* JRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA742914F2FCDD00407D1A /* JRLog.m */; };
+		8ADA745814F2FCDE00407D1A /* MailKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA742A14F2FCDD00407D1A /* MailKit.h */; };
+		8ADA745914F2FCDE00407D1A /* MailKitTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA742B14F2FCDD00407D1A /* MailKitTypes.h */; };
+		8ADA745A14F2FCDE00407D1A /* MailKitUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA742C14F2FCDD00407D1A /* MailKitUtilities.h */; };
+		8ADA745B14F2FCDE00407D1A /* MailKitUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA742D14F2FCDD00407D1A /* MailKitUtilities.m */; };
+		8ADA745C14F2FCDE00407D1A /* MKBareAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA742F14F2FCDD00407D1A /* MKBareAttachment.h */; };
+		8ADA745D14F2FCDE00407D1A /* MKBareAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA743014F2FCDD00407D1A /* MKBareAttachment.m */; };
+		8ADA745E14F2FCDE00407D1A /* MKBareMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA743114F2FCDD00407D1A /* MKBareMessage.h */; };
+		8ADA745F14F2FCDE00407D1A /* MKBareMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA743214F2FCDD00407D1A /* MKBareMessage.m */; };
+		8ADA746014F2FCDE00407D1A /* MKCoreAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA743314F2FCDD00407D1A /* MKCoreAccount.h */; };
+		8ADA746114F2FCDE00407D1A /* MKCoreAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA743414F2FCDD00407D1A /* MKCoreAccount.m */; };
+		8ADA746214F2FCDE00407D1A /* MKCoreAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA743514F2FCDD00407D1A /* MKCoreAddress.h */; };
+		8ADA746314F2FCDE00407D1A /* MKCoreAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA743614F2FCDD00407D1A /* MKCoreAddress.m */; };
+		8ADA746414F2FCDE00407D1A /* MKCoreAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA743714F2FCDD00407D1A /* MKCoreAttachment.h */; };
+		8ADA746514F2FCDE00407D1A /* MKCoreAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA743814F2FCDD00407D1A /* MKCoreAttachment.m */; };
+		8ADA746614F2FCDE00407D1A /* MKCoreFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA743914F2FCDD00407D1A /* MKCoreFolder.h */; };
+		8ADA746714F2FCDE00407D1A /* MKCoreFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA743A14F2FCDD00407D1A /* MKCoreFolder.m */; };
+		8ADA746814F2FCDE00407D1A /* MKCoreMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA743B14F2FCDD00407D1A /* MKCoreMessage.h */; };
+		8ADA746914F2FCDE00407D1A /* MKCoreMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA743C14F2FCDD00407D1A /* MKCoreMessage.m */; };
+		8ADA746A14F2FCDE00407D1A /* MKESMTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA743D14F2FCDD00407D1A /* MKESMTP.h */; };
+		8ADA746B14F2FCDE00407D1A /* MKESMTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA743E14F2FCDD00407D1A /* MKESMTP.m */; };
+		8ADA746C14F2FCDE00407D1A /* MKMime.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA743F14F2FCDD00407D1A /* MKMime.h */; };
+		8ADA746D14F2FCDE00407D1A /* MKMime.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA744014F2FCDD00407D1A /* MKMime.m */; };
+		8ADA746E14F2FCDE00407D1A /* MKMime_Enumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA744114F2FCDD00407D1A /* MKMime_Enumerator.h */; };
+		8ADA746F14F2FCDE00407D1A /* MKMime_Enumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA744214F2FCDD00407D1A /* MKMime_Enumerator.m */; };
+		8ADA747014F2FCDE00407D1A /* MKMIME_HtmlPart.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA744314F2FCDD00407D1A /* MKMIME_HtmlPart.h */; };
+		8ADA747114F2FCDE00407D1A /* MKMIME_HtmlPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA744414F2FCDD00407D1A /* MKMIME_HtmlPart.m */; };
+		8ADA747214F2FCDE00407D1A /* MKMIME_MessagePart.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA744514F2FCDD00407D1A /* MKMIME_MessagePart.h */; };
+		8ADA747314F2FCDE00407D1A /* MKMIME_MessagePart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA744614F2FCDD00407D1A /* MKMIME_MessagePart.m */; };
+		8ADA747414F2FCDE00407D1A /* MKMIME_MultiPart.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA744714F2FCDD00407D1A /* MKMIME_MultiPart.h */; };
+		8ADA747514F2FCDE00407D1A /* MKMIME_MultiPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA744814F2FCDD00407D1A /* MKMIME_MultiPart.m */; };
+		8ADA747614F2FCDE00407D1A /* MKMIME_SinglePart.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA744914F2FCDD00407D1A /* MKMIME_SinglePart.h */; };
+		8ADA747714F2FCDE00407D1A /* MKMIME_SinglePart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA744A14F2FCDD00407D1A /* MKMIME_SinglePart.m */; };
+		8ADA747814F2FCDE00407D1A /* MKMIME_TextPart.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA744B14F2FCDD00407D1A /* MKMIME_TextPart.h */; };
+		8ADA747914F2FCDE00407D1A /* MKMIME_TextPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA744C14F2FCDD00407D1A /* MKMIME_TextPart.m */; };
+		8ADA747A14F2FCDE00407D1A /* MKMimeFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA744D14F2FCDD00407D1A /* MKMimeFactory.h */; };
+		8ADA747B14F2FCDE00407D1A /* MKMimeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA744E14F2FCDD00407D1A /* MKMimeFactory.m */; };
+		8ADA747C14F2FCDE00407D1A /* MKSMTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA744F14F2FCDD00407D1A /* MKSMTP.h */; };
+		8ADA747D14F2FCDE00407D1A /* MKSMTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA745014F2FCDD00407D1A /* MKSMTP.m */; };
+		8ADA747E14F2FCDE00407D1A /* MKSMTPAsyncConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA745114F2FCDD00407D1A /* MKSMTPAsyncConnection.h */; };
+		8ADA747F14F2FCDE00407D1A /* MKSMTPAsyncConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA745214F2FCDD00407D1A /* MKSMTPAsyncConnection.m */; };
+		8ADA748014F2FCDE00407D1A /* MKSMTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADA745314F2FCDD00407D1A /* MKSMTPConnection.h */; };
+		8ADA748114F2FCDE00407D1A /* MKSMTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA745414F2FCDD00407D1A /* MKSMTPConnection.m */; };
 		8AF07FC314F2EA35001C844F /* MailKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8AF07FC214F2EA35001C844F /* MailKit_Prefix.pch */; };
 /* End PBXBuildFile section */
 
@@ -45,65 +87,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8A3FFAF414F2DD560055863A /* MailKitUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MailKitUtilities.m; path = Source/MailKitUtilities.m; sourceTree = "<group>"; };
-		8A3FFAF514F2DD560055863A /* MailKitUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MailKitUtilities.h; path = Source/MailKitUtilities.h; sourceTree = "<group>"; };
-		8A3FFAF614F2DD560055863A /* MKBareMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MKBareMessage.h; path = Source/MKBareMessage.h; sourceTree = "<group>"; };
-		8A3FFAF714F2DD560055863A /* MKBareAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MKBareAttachment.m; path = Source/MKBareAttachment.m; sourceTree = "<group>"; };
-		8A3FFAF814F2DD560055863A /* MailKitCoreTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MailKitCoreTypes.h; path = Source/MailKitCoreTypes.h; sourceTree = "<group>"; };
-		8A3FFAFA14F2DD560055863A /* MKCoreAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCoreAccount.h; sourceTree = "<group>"; };
-		8A3FFAFB14F2DD560055863A /* MKCoreAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCoreAccount.m; sourceTree = "<group>"; };
-		8A3FFAFC14F2DD560055863A /* MKCoreAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCoreAddress.h; sourceTree = "<group>"; };
-		8A3FFAFD14F2DD560055863A /* MKCoreAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCoreAddress.m; sourceTree = "<group>"; };
-		8A3FFAFE14F2DD560055863A /* MKCoreAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCoreAttachment.h; sourceTree = "<group>"; };
-		8A3FFAFF14F2DD560055863A /* MKCoreAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCoreAttachment.m; sourceTree = "<group>"; };
-		8A3FFB0014F2DD560055863A /* MKCoreFolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCoreFolder.h; sourceTree = "<group>"; };
-		8A3FFB0114F2DD560055863A /* MKCoreFolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCoreFolder.m; sourceTree = "<group>"; };
-		8A3FFB0214F2DD560055863A /* MKCoreMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCoreMessage.h; sourceTree = "<group>"; };
-		8A3FFB0314F2DD560055863A /* MKCoreMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCoreMessage.m; sourceTree = "<group>"; };
-		8A3FFB0514F2DD560055863A /* MKESMTP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKESMTP.h; sourceTree = "<group>"; };
-		8A3FFB0614F2DD560055863A /* MKESMTP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKESMTP.m; sourceTree = "<group>"; };
-		8A3FFB0714F2DD560055863A /* MKSMTP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKSMTP.h; sourceTree = "<group>"; };
-		8A3FFB0814F2DD560055863A /* MKSMTP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKSMTP.m; sourceTree = "<group>"; };
-		8A3FFB0914F2DD560055863A /* MKSMTPAsyncConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKSMTPAsyncConnection.h; sourceTree = "<group>"; };
-		8A3FFB0A14F2DD560055863A /* MKSMTPAsyncConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKSMTPAsyncConnection.m; sourceTree = "<group>"; };
-		8A3FFB0B14F2DD560055863A /* MKSMTPConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKSMTPConnection.h; sourceTree = "<group>"; };
-		8A3FFB0C14F2DD560055863A /* MKSMTPConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKSMTPConnection.m; sourceTree = "<group>"; };
-		8A3FFB0E14F2DD560055863A /* MKMime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMime.h; sourceTree = "<group>"; };
-		8A3FFB0F14F2DD560055863A /* MKMime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMime.m; sourceTree = "<group>"; };
-		8A3FFB1014F2DD560055863A /* MKMime_Enumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMime_Enumerator.h; sourceTree = "<group>"; };
-		8A3FFB1114F2DD560055863A /* MKMime_Enumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMime_Enumerator.m; sourceTree = "<group>"; };
-		8A3FFB1214F2DD560055863A /* MKMIME_HtmlPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMIME_HtmlPart.h; sourceTree = "<group>"; };
-		8A3FFB1314F2DD560055863A /* MKMIME_HtmlPart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMIME_HtmlPart.m; sourceTree = "<group>"; };
-		8A3FFB1414F2DD560055863A /* MKMIME_MessagePart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMIME_MessagePart.h; sourceTree = "<group>"; };
-		8A3FFB1514F2DD560055863A /* MKMIME_MessagePart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMIME_MessagePart.m; sourceTree = "<group>"; };
-		8A3FFB1614F2DD560055863A /* MKMIME_MultiPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMIME_MultiPart.h; sourceTree = "<group>"; };
-		8A3FFB1714F2DD560055863A /* MKMIME_MultiPart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMIME_MultiPart.m; sourceTree = "<group>"; };
-		8A3FFB1814F2DD560055863A /* MKMIME_SinglePart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMIME_SinglePart.h; sourceTree = "<group>"; };
-		8A3FFB1914F2DD560055863A /* MKMIME_SinglePart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMIME_SinglePart.m; sourceTree = "<group>"; };
-		8A3FFB1A14F2DD560055863A /* MKMIME_TextPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMIME_TextPart.h; sourceTree = "<group>"; };
-		8A3FFB1B14F2DD560055863A /* MKMIME_TextPart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMIME_TextPart.m; sourceTree = "<group>"; };
-		8A3FFB1C14F2DD560055863A /* MKMimeFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMimeFactory.h; sourceTree = "<group>"; };
-		8A3FFB1D14F2DD560055863A /* MKMimeFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMimeFactory.m; sourceTree = "<group>"; };
-		8A3FFB1E14F2DD560055863A /* MailKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MailKit.h; path = Source/MailKit.h; sourceTree = "<group>"; };
-		8A3FFB1F14F2DD560055863A /* JRLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JRLog.m; path = Source/JRLog.m; sourceTree = "<group>"; };
-		8A3FFB2014F2DD560055863A /* JRLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JRLog.h; path = Source/JRLog.h; sourceTree = "<group>"; };
-		8A3FFB2114F2DD560055863A /* MKBareMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MKBareMessage.m; path = Source/MKBareMessage.m; sourceTree = "<group>"; };
-		8A3FFB2214F2DD560055863A /* MKBareAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MKBareAttachment.h; path = Source/MKBareAttachment.h; sourceTree = "<group>"; };
 		8A3FFB3214F2DDE60055863A /* MailKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MailKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3FFB3514F2DDE60055863A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8A3FFB3814F2DDE60055863A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8A3FFB3914F2DDE60055863A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8A3FFB3A14F2DDE60055863A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8A3FFB3D14F2DDE60055863A /* MailKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MailKit-Info.plist"; sourceTree = "<group>"; };
-		8A3FFB3F14F2DDE60055863A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8A3FFB4114F2DDE60055863A /* MailKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MailKit-Prefix.pch"; sourceTree = "<group>"; };
-		8A3FFB4214F2DDE60055863A /* MailKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailKit.h; sourceTree = "<group>"; };
-		8A3FFB4314F2DDE60055863A /* MailKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailKit.m; sourceTree = "<group>"; };
 		8A3FFB4A14F2DDE70055863A /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3FFB4B14F2DDE70055863A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8A3FFB6014F2E55F0055863A /* MailKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MailKit-Info.plist"; sourceTree = "<group>"; };
 		8A3FFD6614F2E75F0055863A /* libetpan.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libetpan.xcodeproj; path = "libetpan/build-mac/libetpan.xcodeproj"; sourceTree = "<group>"; };
-		8A3FFD7214F2E87B0055863A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A90E05714F2EFAD0081D479 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ADA742814F2FCDD00407D1A /* JRLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRLog.h; sourceTree = "<group>"; };
+		8ADA742914F2FCDD00407D1A /* JRLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRLog.m; sourceTree = "<group>"; };
+		8ADA742A14F2FCDD00407D1A /* MailKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailKit.h; sourceTree = "<group>"; };
+		8ADA742B14F2FCDD00407D1A /* MailKitTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailKitTypes.h; sourceTree = "<group>"; };
+		8ADA742C14F2FCDD00407D1A /* MailKitUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailKitUtilities.h; sourceTree = "<group>"; };
+		8ADA742D14F2FCDD00407D1A /* MailKitUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailKitUtilities.m; sourceTree = "<group>"; };
+		8ADA742F14F2FCDD00407D1A /* MKBareAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBareAttachment.h; sourceTree = "<group>"; };
+		8ADA743014F2FCDD00407D1A /* MKBareAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBareAttachment.m; sourceTree = "<group>"; };
+		8ADA743114F2FCDD00407D1A /* MKBareMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBareMessage.h; sourceTree = "<group>"; };
+		8ADA743214F2FCDD00407D1A /* MKBareMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBareMessage.m; sourceTree = "<group>"; };
+		8ADA743314F2FCDD00407D1A /* MKCoreAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCoreAccount.h; sourceTree = "<group>"; };
+		8ADA743414F2FCDD00407D1A /* MKCoreAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCoreAccount.m; sourceTree = "<group>"; };
+		8ADA743514F2FCDD00407D1A /* MKCoreAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCoreAddress.h; sourceTree = "<group>"; };
+		8ADA743614F2FCDD00407D1A /* MKCoreAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCoreAddress.m; sourceTree = "<group>"; };
+		8ADA743714F2FCDD00407D1A /* MKCoreAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCoreAttachment.h; sourceTree = "<group>"; };
+		8ADA743814F2FCDD00407D1A /* MKCoreAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCoreAttachment.m; sourceTree = "<group>"; };
+		8ADA743914F2FCDD00407D1A /* MKCoreFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCoreFolder.h; sourceTree = "<group>"; };
+		8ADA743A14F2FCDD00407D1A /* MKCoreFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCoreFolder.m; sourceTree = "<group>"; };
+		8ADA743B14F2FCDD00407D1A /* MKCoreMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCoreMessage.h; sourceTree = "<group>"; };
+		8ADA743C14F2FCDD00407D1A /* MKCoreMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCoreMessage.m; sourceTree = "<group>"; };
+		8ADA743D14F2FCDD00407D1A /* MKESMTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKESMTP.h; sourceTree = "<group>"; };
+		8ADA743E14F2FCDD00407D1A /* MKESMTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKESMTP.m; sourceTree = "<group>"; };
+		8ADA743F14F2FCDD00407D1A /* MKMime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMime.h; sourceTree = "<group>"; };
+		8ADA744014F2FCDD00407D1A /* MKMime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMime.m; sourceTree = "<group>"; };
+		8ADA744114F2FCDD00407D1A /* MKMime_Enumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMime_Enumerator.h; sourceTree = "<group>"; };
+		8ADA744214F2FCDD00407D1A /* MKMime_Enumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMime_Enumerator.m; sourceTree = "<group>"; };
+		8ADA744314F2FCDD00407D1A /* MKMIME_HtmlPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMIME_HtmlPart.h; sourceTree = "<group>"; };
+		8ADA744414F2FCDD00407D1A /* MKMIME_HtmlPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMIME_HtmlPart.m; sourceTree = "<group>"; };
+		8ADA744514F2FCDD00407D1A /* MKMIME_MessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMIME_MessagePart.h; sourceTree = "<group>"; };
+		8ADA744614F2FCDD00407D1A /* MKMIME_MessagePart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMIME_MessagePart.m; sourceTree = "<group>"; };
+		8ADA744714F2FCDD00407D1A /* MKMIME_MultiPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMIME_MultiPart.h; sourceTree = "<group>"; };
+		8ADA744814F2FCDD00407D1A /* MKMIME_MultiPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMIME_MultiPart.m; sourceTree = "<group>"; };
+		8ADA744914F2FCDD00407D1A /* MKMIME_SinglePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMIME_SinglePart.h; sourceTree = "<group>"; };
+		8ADA744A14F2FCDD00407D1A /* MKMIME_SinglePart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMIME_SinglePart.m; sourceTree = "<group>"; };
+		8ADA744B14F2FCDD00407D1A /* MKMIME_TextPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMIME_TextPart.h; sourceTree = "<group>"; };
+		8ADA744C14F2FCDD00407D1A /* MKMIME_TextPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMIME_TextPart.m; sourceTree = "<group>"; };
+		8ADA744D14F2FCDD00407D1A /* MKMimeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMimeFactory.h; sourceTree = "<group>"; };
+		8ADA744E14F2FCDD00407D1A /* MKMimeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMimeFactory.m; sourceTree = "<group>"; };
+		8ADA744F14F2FCDD00407D1A /* MKSMTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSMTP.h; sourceTree = "<group>"; };
+		8ADA745014F2FCDD00407D1A /* MKSMTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSMTP.m; sourceTree = "<group>"; };
+		8ADA745114F2FCDD00407D1A /* MKSMTPAsyncConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSMTPAsyncConnection.h; sourceTree = "<group>"; };
+		8ADA745214F2FCDD00407D1A /* MKSMTPAsyncConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSMTPAsyncConnection.m; sourceTree = "<group>"; };
+		8ADA745314F2FCDD00407D1A /* MKSMTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSMTPConnection.h; sourceTree = "<group>"; };
+		8ADA745414F2FCDD00407D1A /* MKSMTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSMTPConnection.m; sourceTree = "<group>"; };
 		8AF07FC214F2EA35001C844F /* MailKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailKit_Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,93 +169,14 @@
 		8A3FFAB814F2DCE70055863A = {
 			isa = PBXGroup;
 			children = (
-				8A3FFD7214F2E87B0055863A /* main.m */,
+				8ADA742614F2FCDD00407D1A /* Source */,
+				8A90E05714F2EFAD0081D479 /* main.m */,
 				8A3FFD6614F2E75F0055863A /* libetpan.xcodeproj */,
 				8A3FFB6014F2E55F0055863A /* MailKit-Info.plist */,
 				8AF07FC214F2EA35001C844F /* MailKit_Prefix.pch */,
-				8A3FFB2314F2DD5D0055863A /* Classes */,
-				8A3FFB3B14F2DDE60055863A /* MailKit */,
 				8A3FFB3414F2DDE60055863A /* Frameworks */,
 				8A3FFB3314F2DDE60055863A /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		8A3FFAF914F2DD560055863A /* core */ = {
-			isa = PBXGroup;
-			children = (
-				8A3FFAFA14F2DD560055863A /* MKCoreAccount.h */,
-				8A3FFAFB14F2DD560055863A /* MKCoreAccount.m */,
-				8A3FFAFC14F2DD560055863A /* MKCoreAddress.h */,
-				8A3FFAFD14F2DD560055863A /* MKCoreAddress.m */,
-				8A3FFAFE14F2DD560055863A /* MKCoreAttachment.h */,
-				8A3FFAFF14F2DD560055863A /* MKCoreAttachment.m */,
-				8A3FFB0014F2DD560055863A /* MKCoreFolder.h */,
-				8A3FFB0114F2DD560055863A /* MKCoreFolder.m */,
-				8A3FFB0214F2DD560055863A /* MKCoreMessage.h */,
-				8A3FFB0314F2DD560055863A /* MKCoreMessage.m */,
-			);
-			name = core;
-			path = Source/core;
-			sourceTree = "<group>";
-		};
-		8A3FFB0414F2DD560055863A /* smtp */ = {
-			isa = PBXGroup;
-			children = (
-				8A3FFB0514F2DD560055863A /* MKESMTP.h */,
-				8A3FFB0614F2DD560055863A /* MKESMTP.m */,
-				8A3FFB0714F2DD560055863A /* MKSMTP.h */,
-				8A3FFB0814F2DD560055863A /* MKSMTP.m */,
-				8A3FFB0914F2DD560055863A /* MKSMTPAsyncConnection.h */,
-				8A3FFB0A14F2DD560055863A /* MKSMTPAsyncConnection.m */,
-				8A3FFB0B14F2DD560055863A /* MKSMTPConnection.h */,
-				8A3FFB0C14F2DD560055863A /* MKSMTPConnection.m */,
-			);
-			name = smtp;
-			path = Source/smtp;
-			sourceTree = "<group>";
-		};
-		8A3FFB0D14F2DD560055863A /* mime */ = {
-			isa = PBXGroup;
-			children = (
-				8A3FFB0E14F2DD560055863A /* MKMime.h */,
-				8A3FFB0F14F2DD560055863A /* MKMime.m */,
-				8A3FFB1014F2DD560055863A /* MKMime_Enumerator.h */,
-				8A3FFB1114F2DD560055863A /* MKMime_Enumerator.m */,
-				8A3FFB1214F2DD560055863A /* MKMIME_HtmlPart.h */,
-				8A3FFB1314F2DD560055863A /* MKMIME_HtmlPart.m */,
-				8A3FFB1414F2DD560055863A /* MKMIME_MessagePart.h */,
-				8A3FFB1514F2DD560055863A /* MKMIME_MessagePart.m */,
-				8A3FFB1614F2DD560055863A /* MKMIME_MultiPart.h */,
-				8A3FFB1714F2DD560055863A /* MKMIME_MultiPart.m */,
-				8A3FFB1814F2DD560055863A /* MKMIME_SinglePart.h */,
-				8A3FFB1914F2DD560055863A /* MKMIME_SinglePart.m */,
-				8A3FFB1A14F2DD560055863A /* MKMIME_TextPart.h */,
-				8A3FFB1B14F2DD560055863A /* MKMIME_TextPart.m */,
-				8A3FFB1C14F2DD560055863A /* MKMimeFactory.h */,
-				8A3FFB1D14F2DD560055863A /* MKMimeFactory.m */,
-			);
-			name = mime;
-			path = Source/mime;
-			sourceTree = "<group>";
-		};
-		8A3FFB2314F2DD5D0055863A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8A3FFAF414F2DD560055863A /* MailKitUtilities.m */,
-				8A3FFAF514F2DD560055863A /* MailKitUtilities.h */,
-				8A3FFAF614F2DD560055863A /* MKBareMessage.h */,
-				8A3FFAF714F2DD560055863A /* MKBareAttachment.m */,
-				8A3FFAF814F2DD560055863A /* MailKitCoreTypes.h */,
-				8A3FFAF914F2DD560055863A /* core */,
-				8A3FFB0414F2DD560055863A /* smtp */,
-				8A3FFB0D14F2DD560055863A /* mime */,
-				8A3FFB1E14F2DD560055863A /* MailKit.h */,
-				8A3FFB1F14F2DD560055863A /* JRLog.m */,
-				8A3FFB2014F2DD560055863A /* JRLog.h */,
-				8A3FFB2114F2DD560055863A /* MKBareMessage.m */,
-				8A3FFB2214F2DD560055863A /* MKBareAttachment.h */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 		8A3FFB3314F2DDE60055863A /* Products */ = {
@@ -250,26 +208,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		8A3FFB3B14F2DDE60055863A /* MailKit */ = {
-			isa = PBXGroup;
-			children = (
-				8A3FFB4214F2DDE60055863A /* MailKit.h */,
-				8A3FFB4314F2DDE60055863A /* MailKit.m */,
-				8A3FFB3C14F2DDE60055863A /* Supporting Files */,
-			);
-			path = MailKit;
-			sourceTree = "<group>";
-		};
-		8A3FFB3C14F2DDE60055863A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8A3FFB3D14F2DDE60055863A /* MailKit-Info.plist */,
-				8A3FFB3E14F2DDE60055863A /* InfoPlist.strings */,
-				8A3FFB4114F2DDE60055863A /* MailKit-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		8A3FFD6714F2E75F0055863A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +215,81 @@
 				8A3FFD7114F2E7600055863A /* libetpan.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8ADA742614F2FCDD00407D1A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8ADA748414F2FD8100407D1A /* Core */,
+				8ADA748314F2FD6000407D1A /* SMTP */,
+				8ADA748214F2FD4100407D1A /* Mime */,
+				8ADA742814F2FCDD00407D1A /* JRLog.h */,
+				8ADA742914F2FCDD00407D1A /* JRLog.m */,
+				8ADA742A14F2FCDD00407D1A /* MailKit.h */,
+				8ADA742B14F2FCDD00407D1A /* MailKitTypes.h */,
+				8ADA742C14F2FCDD00407D1A /* MailKitUtilities.h */,
+				8ADA742D14F2FCDD00407D1A /* MailKitUtilities.m */,
+				8ADA742F14F2FCDD00407D1A /* MKBareAttachment.h */,
+				8ADA743014F2FCDD00407D1A /* MKBareAttachment.m */,
+				8ADA743114F2FCDD00407D1A /* MKBareMessage.h */,
+				8ADA743214F2FCDD00407D1A /* MKBareMessage.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8ADA748214F2FD4100407D1A /* Mime */ = {
+			isa = PBXGroup;
+			children = (
+				8ADA743F14F2FCDD00407D1A /* MKMime.h */,
+				8ADA744014F2FCDD00407D1A /* MKMime.m */,
+				8ADA744114F2FCDD00407D1A /* MKMime_Enumerator.h */,
+				8ADA744214F2FCDD00407D1A /* MKMime_Enumerator.m */,
+				8ADA744314F2FCDD00407D1A /* MKMIME_HtmlPart.h */,
+				8ADA744414F2FCDD00407D1A /* MKMIME_HtmlPart.m */,
+				8ADA744514F2FCDD00407D1A /* MKMIME_MessagePart.h */,
+				8ADA744614F2FCDD00407D1A /* MKMIME_MessagePart.m */,
+				8ADA744714F2FCDD00407D1A /* MKMIME_MultiPart.h */,
+				8ADA744814F2FCDD00407D1A /* MKMIME_MultiPart.m */,
+				8ADA744914F2FCDD00407D1A /* MKMIME_SinglePart.h */,
+				8ADA744A14F2FCDD00407D1A /* MKMIME_SinglePart.m */,
+				8ADA744B14F2FCDD00407D1A /* MKMIME_TextPart.h */,
+				8ADA744C14F2FCDD00407D1A /* MKMIME_TextPart.m */,
+				8ADA744D14F2FCDD00407D1A /* MKMimeFactory.h */,
+				8ADA744E14F2FCDD00407D1A /* MKMimeFactory.m */,
+			);
+			name = Mime;
+			sourceTree = "<group>";
+		};
+		8ADA748314F2FD6000407D1A /* SMTP */ = {
+			isa = PBXGroup;
+			children = (
+				8ADA743D14F2FCDD00407D1A /* MKESMTP.h */,
+				8ADA743E14F2FCDD00407D1A /* MKESMTP.m */,
+				8ADA744F14F2FCDD00407D1A /* MKSMTP.h */,
+				8ADA745014F2FCDD00407D1A /* MKSMTP.m */,
+				8ADA745114F2FCDD00407D1A /* MKSMTPAsyncConnection.h */,
+				8ADA745214F2FCDD00407D1A /* MKSMTPAsyncConnection.m */,
+				8ADA745314F2FCDD00407D1A /* MKSMTPConnection.h */,
+				8ADA745414F2FCDD00407D1A /* MKSMTPConnection.m */,
+			);
+			name = SMTP;
+			sourceTree = "<group>";
+		};
+		8ADA748414F2FD8100407D1A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8ADA743314F2FCDD00407D1A /* MKCoreAccount.h */,
+				8ADA743414F2FCDD00407D1A /* MKCoreAccount.m */,
+				8ADA743514F2FCDD00407D1A /* MKCoreAddress.h */,
+				8ADA743614F2FCDD00407D1A /* MKCoreAddress.m */,
+				8ADA743714F2FCDD00407D1A /* MKCoreAttachment.h */,
+				8ADA743814F2FCDD00407D1A /* MKCoreAttachment.m */,
+				8ADA743914F2FCDD00407D1A /* MKCoreFolder.h */,
+				8ADA743A14F2FCDD00407D1A /* MKCoreFolder.m */,
+				8ADA743B14F2FCDD00407D1A /* MKCoreMessage.h */,
+				8ADA743C14F2FCDD00407D1A /* MKCoreMessage.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +300,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AF07FC314F2EA35001C844F /* MailKit_Prefix.pch in Headers */,
+				8ADA745614F2FCDE00407D1A /* JRLog.h in Headers */,
+				8ADA745814F2FCDE00407D1A /* MailKit.h in Headers */,
+				8ADA745914F2FCDE00407D1A /* MailKitTypes.h in Headers */,
+				8ADA745A14F2FCDE00407D1A /* MailKitUtilities.h in Headers */,
+				8ADA745C14F2FCDE00407D1A /* MKBareAttachment.h in Headers */,
+				8ADA745E14F2FCDE00407D1A /* MKBareMessage.h in Headers */,
+				8ADA746014F2FCDE00407D1A /* MKCoreAccount.h in Headers */,
+				8ADA746214F2FCDE00407D1A /* MKCoreAddress.h in Headers */,
+				8ADA746414F2FCDE00407D1A /* MKCoreAttachment.h in Headers */,
+				8ADA746614F2FCDE00407D1A /* MKCoreFolder.h in Headers */,
+				8ADA746814F2FCDE00407D1A /* MKCoreMessage.h in Headers */,
+				8ADA746A14F2FCDE00407D1A /* MKESMTP.h in Headers */,
+				8ADA746C14F2FCDE00407D1A /* MKMime.h in Headers */,
+				8ADA746E14F2FCDE00407D1A /* MKMime_Enumerator.h in Headers */,
+				8ADA747014F2FCDE00407D1A /* MKMIME_HtmlPart.h in Headers */,
+				8ADA747214F2FCDE00407D1A /* MKMIME_MessagePart.h in Headers */,
+				8ADA747414F2FCDE00407D1A /* MKMIME_MultiPart.h in Headers */,
+				8ADA747614F2FCDE00407D1A /* MKMIME_SinglePart.h in Headers */,
+				8ADA747814F2FCDE00407D1A /* MKMIME_TextPart.h in Headers */,
+				8ADA747A14F2FCDE00407D1A /* MKMimeFactory.h in Headers */,
+				8ADA747C14F2FCDE00407D1A /* MKSMTP.h in Headers */,
+				8ADA747E14F2FCDE00407D1A /* MKSMTPAsyncConnection.h in Headers */,
+				8ADA748014F2FCDE00407D1A /* MKSMTPConnection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +420,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3FFB4014F2DDE60055863A /* InfoPlist.strings in Resources */,
 				8A3FFB6214F2E55F0055863A /* MailKit-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,8 +455,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3FFB4414F2DDE60055863A /* MailKit.m in Sources */,
-				8A3FFD7314F2E87B0055863A /* main.m in Sources */,
+				8A90E05814F2EFAD0081D479 /* main.m in Sources */,
+				8ADA745714F2FCDE00407D1A /* JRLog.m in Sources */,
+				8ADA745B14F2FCDE00407D1A /* MailKitUtilities.m in Sources */,
+				8ADA745D14F2FCDE00407D1A /* MKBareAttachment.m in Sources */,
+				8ADA745F14F2FCDE00407D1A /* MKBareMessage.m in Sources */,
+				8ADA746114F2FCDE00407D1A /* MKCoreAccount.m in Sources */,
+				8ADA746314F2FCDE00407D1A /* MKCoreAddress.m in Sources */,
+				8ADA746514F2FCDE00407D1A /* MKCoreAttachment.m in Sources */,
+				8ADA746714F2FCDE00407D1A /* MKCoreFolder.m in Sources */,
+				8ADA746914F2FCDE00407D1A /* MKCoreMessage.m in Sources */,
+				8ADA746B14F2FCDE00407D1A /* MKESMTP.m in Sources */,
+				8ADA746D14F2FCDE00407D1A /* MKMime.m in Sources */,
+				8ADA746F14F2FCDE00407D1A /* MKMime_Enumerator.m in Sources */,
+				8ADA747114F2FCDE00407D1A /* MKMIME_HtmlPart.m in Sources */,
+				8ADA747314F2FCDE00407D1A /* MKMIME_MessagePart.m in Sources */,
+				8ADA747514F2FCDE00407D1A /* MKMIME_MultiPart.m in Sources */,
+				8ADA747714F2FCDE00407D1A /* MKMIME_SinglePart.m in Sources */,
+				8ADA747914F2FCDE00407D1A /* MKMIME_TextPart.m in Sources */,
+				8ADA747B14F2FCDE00407D1A /* MKMimeFactory.m in Sources */,
+				8ADA747D14F2FCDE00407D1A /* MKSMTP.m in Sources */,
+				8ADA747F14F2FCDE00407D1A /* MKSMTPAsyncConnection.m in Sources */,
+				8ADA748114F2FCDE00407D1A /* MKSMTPConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3FFD7414F2E87B0055863A /* main.m in Sources */,
+				8A90E05914F2EFAD0081D479 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,17 +497,6 @@
 			targetProxy = 8A3FFB4E14F2DDE70055863A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8A3FFB3E14F2DDE60055863A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A3FFB3F14F2DDE60055863A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8A3FFABF14F2DCE70055863A /* Debug */ = {
@@ -475,6 +519,7 @@
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/libetpan/build-mac/build/Release\"";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -493,16 +538,17 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "libetpan/build-mac/include/**";
+				HEADER_SEARCH_PATHS = (
+					"Source/**",
+					"libetpan/build-mac/include/**",
+				);
 				INFOPLIST_FILE = "MailKit-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					0xb0000000,
-					"-seg1addr",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "Source/**";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -517,6 +563,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/libetpan/build-mac/build/Release\"";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -528,15 +575,16 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "libetpan/build-mac/include/**";
+				HEADER_SEARCH_PATHS = (
+					"Source/**",
+					"libetpan/build-mac/include/**",
+				);
 				INFOPLIST_FILE = "MailKit-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				OTHER_LDFLAGS = (
-					0xb0000000,
-					"-seg1addr",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "Source/**";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
